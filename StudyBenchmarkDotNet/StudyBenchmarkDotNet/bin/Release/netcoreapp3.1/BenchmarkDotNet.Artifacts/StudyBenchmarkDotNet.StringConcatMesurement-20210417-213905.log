@@ -1,0 +1,192 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\1125s\source\repos\StudyBenchmarkDotNet\StudyBenchmarkDotNet\bin\Release\netcoreapp3.1\3b561c17-b0f5-49ac-b8cf-84ab651d6d21
+// command took 5.57s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\1125s\source\repos\StudyBenchmarkDotNet\StudyBenchmarkDotNet\bin\Release\netcoreapp3.1\3b561c17-b0f5-49ac-b8cf-84ab651d6d21
+// command took 5.56s and exited with 0
+// ***** Done, took 00:00:11 (11.29 sec)   *****
+// Found 2 benchmarks:
+//   StringConcatMesurement.WithStringBuilder: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3)
+//   StringConcatMesurement.WithStringType: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3)
+
+// **************************
+// Benchmark: StringConcatMesurement.WithStringBuilder: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "3b561c17-b0f5-49ac-b8cf-84ab651d6d21.dll" --benchmarkName "StudyBenchmarkDotNet.StringConcatMesurement.WithStringBuilder" --job "ShortRun" --benchmarkId 0 in C:\Users\1125s\source\repos\StudyBenchmarkDotNet\StudyBenchmarkDotNet\bin\Release\netcoreapp3.1\3b561c17-b0f5-49ac-b8cf-84ab651d6d21\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.8 (CoreCLR 4.700.20.41105, CoreFX 4.700.20.41903), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3)
+
+OverheadJitting  1: 1 op, 420300.00 ns, 420.3000 us/op
+WorkloadJitting  1: 1 op, 1654400.00 ns, 1.6544 ms/op
+
+OverheadJitting  2: 16 op, 817700.00 ns, 51.1063 us/op
+WorkloadJitting  2: 16 op, 24267900.00 ns, 1.5167 ms/op
+
+WorkloadPilot    1: 16 op, 16915300.00 ns, 1.0572 ms/op
+WorkloadPilot    2: 32 op, 29279100.00 ns, 914.9719 us/op
+WorkloadPilot    3: 64 op, 62205000.00 ns, 971.9531 us/op
+WorkloadPilot    4: 128 op, 138725400.00 ns, 1.0838 ms/op
+WorkloadPilot    5: 256 op, 264615200.00 ns, 1.0337 ms/op
+WorkloadPilot    6: 512 op, 498716600.00 ns, 974.0559 us/op
+WorkloadPilot    7: 1024 op, 814726200.00 ns, 795.6311 us/op
+
+OverheadWarmup   1: 1024 op, 7800.00 ns, 7.6172 ns/op
+OverheadWarmup   2: 1024 op, 4600.00 ns, 4.4922 ns/op
+OverheadWarmup   3: 1024 op, 4400.00 ns, 4.2969 ns/op
+OverheadWarmup   4: 1024 op, 5100.00 ns, 4.9805 ns/op
+OverheadWarmup   5: 1024 op, 7300.00 ns, 7.1289 ns/op
+OverheadWarmup   6: 1024 op, 4500.00 ns, 4.3945 ns/op
+OverheadWarmup   7: 1024 op, 28100.00 ns, 27.4414 ns/op
+OverheadWarmup   8: 1024 op, 4500.00 ns, 4.3945 ns/op
+
+OverheadActual   1: 1024 op, 4700.00 ns, 4.5898 ns/op
+OverheadActual   2: 1024 op, 4700.00 ns, 4.5898 ns/op
+OverheadActual   3: 1024 op, 5800.00 ns, 5.6641 ns/op
+OverheadActual   4: 1024 op, 4800.00 ns, 4.6875 ns/op
+OverheadActual   5: 1024 op, 4700.00 ns, 4.5898 ns/op
+OverheadActual   6: 1024 op, 5900.00 ns, 5.7617 ns/op
+OverheadActual   7: 1024 op, 9000.00 ns, 8.7891 ns/op
+OverheadActual   8: 1024 op, 5900.00 ns, 5.7617 ns/op
+OverheadActual   9: 1024 op, 4700.00 ns, 4.5898 ns/op
+OverheadActual  10: 1024 op, 5400.00 ns, 5.2734 ns/op
+OverheadActual  11: 1024 op, 8100.00 ns, 7.9102 ns/op
+OverheadActual  12: 1024 op, 4600.00 ns, 4.4922 ns/op
+OverheadActual  13: 1024 op, 4500.00 ns, 4.3945 ns/op
+OverheadActual  14: 1024 op, 8700.00 ns, 8.4961 ns/op
+OverheadActual  15: 1024 op, 7900.00 ns, 7.7148 ns/op
+OverheadActual  16: 1024 op, 5000.00 ns, 4.8828 ns/op
+OverheadActual  17: 1024 op, 7700.00 ns, 7.5195 ns/op
+OverheadActual  18: 1024 op, 5900.00 ns, 5.7617 ns/op
+OverheadActual  19: 1024 op, 4600.00 ns, 4.4922 ns/op
+OverheadActual  20: 1024 op, 4600.00 ns, 4.4922 ns/op
+
+WorkloadWarmup   1: 1024 op, 816012600.00 ns, 796.8873 us/op
+WorkloadWarmup   2: 1024 op, 841937600.00 ns, 822.2047 us/op
+WorkloadWarmup   3: 1024 op, 851275100.00 ns, 831.3233 us/op
+
+// BeforeActualRun
+WorkloadActual   1: 1024 op, 906072800.00 ns, 884.8367 us/op
+WorkloadActual   2: 1024 op, 916979800.00 ns, 895.4881 us/op
+WorkloadActual   3: 1024 op, 858220200.00 ns, 838.1057 us/op
+
+// AfterActualRun
+WorkloadResult   1: 1024 op, 906067600.00 ns, 884.8316 us/op
+WorkloadResult   2: 1024 op, 916974600.00 ns, 895.4830 us/op
+WorkloadResult   3: 1024 op, 858215000.00 ns, 838.1006 us/op
+
+// AfterAll
+// Benchmark Process 30212 has exited with code 0
+
+Mean = 872.805 μs, StdErr = 17.623 μs (2.02%), N = 3, StdDev = 30.523 μs
+Min = 838.101 μs, Q1 = 861.466 μs, Median = 884.832 μs, Q3 = 890.157 μs, Max = 895.483 μs
+IQR = 28.691 μs, LowerFence = 818.429 μs, UpperFence = 933.194 μs
+ConfidenceInterval = [315.949 μs; 1,429.661 μs] (CI 99.9%), Margin = 556.856 μs (63.80% of Mean)
+Skewness = -0.33, Kurtosis = 0.67, MValue = 2
+
+// **************************
+// Benchmark: StringConcatMesurement.WithStringType: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "3b561c17-b0f5-49ac-b8cf-84ab651d6d21.dll" --benchmarkName "StudyBenchmarkDotNet.StringConcatMesurement.WithStringType" --job "ShortRun" --benchmarkId 1 in C:\Users\1125s\source\repos\StudyBenchmarkDotNet\StudyBenchmarkDotNet\bin\Release\netcoreapp3.1\3b561c17-b0f5-49ac-b8cf-84ab651d6d21\bin\Release\netcoreapp3.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 3.1.8 (CoreCLR 4.700.20.41105, CoreFX 4.700.20.41903), X64 RyuJIT
+// GC=Concurrent Workstation
+// Job: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3)
+
+OverheadJitting  1: 1 op, 320000.00 ns, 320.0000 us/op
+WorkloadJitting  1: 1 op, 5333013400.00 ns, 5.3330 s/op
+
+WorkloadWarmup   1: 1 op, 7557223400.00 ns, 7.5572 s/op
+WorkloadWarmup   2: 1 op, 7354403400.00 ns, 7.3544 s/op
+WorkloadWarmup   3: 1 op, 7505857200.00 ns, 7.5059 s/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 9443182500.00 ns, 9.4432 s/op
+WorkloadActual   2: 1 op, 8534642200.00 ns, 8.5346 s/op
+WorkloadActual   3: 1 op, 7640195900.00 ns, 7.6402 s/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 9443182500.00 ns, 9.4432 s/op
+WorkloadResult   2: 1 op, 8534642200.00 ns, 8.5346 s/op
+WorkloadResult   3: 1 op, 7640195900.00 ns, 7.6402 s/op
+
+// AfterAll
+// Benchmark Process 31528 has exited with code 0
+
+Mean = 8.539 s, StdErr = 0.520 s (6.10%), N = 3, StdDev = 0.902 s
+Min = 7.640 s, Q1 = 8.087 s, Median = 8.535 s, Q3 = 8.989 s, Max = 9.443 s
+IQR = 0.901 s, LowerFence = 6.735 s, UpperFence = 10.341 s
+ConfidenceInterval = [-7.907 s; 24.986 s] (CI 99.9%), Margin = 16.447 s (192.60% of Mean)
+Skewness = 0.01, Kurtosis = 0.67, MValue = 2
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\StudyBenchmarkDotNet.StringConcatMesurement-report.csv
+  BenchmarkDotNet.Artifacts\results\StudyBenchmarkDotNet.StringConcatMesurement-report-github.md
+  BenchmarkDotNet.Artifacts\results\StudyBenchmarkDotNet.StringConcatMesurement-report.html
+
+// * Detailed results *
+StringConcatMesurement.WithStringBuilder: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3)
+Runtime = .NET Core 3.1.8 (CoreCLR 4.700.20.41105, CoreFX 4.700.20.41903), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 872.805 μs, StdErr = 17.623 μs (2.02%), N = 3, StdDev = 30.523 μs
+Min = 838.101 μs, Q1 = 861.466 μs, Median = 884.832 μs, Q3 = 890.157 μs, Max = 895.483 μs
+IQR = 28.691 μs, LowerFence = 818.429 μs, UpperFence = 933.194 μs
+ConfidenceInterval = [315.949 μs; 1,429.661 μs] (CI 99.9%), Margin = 556.856 μs (63.80% of Mean)
+Skewness = -0.33, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[810.323 μs ; 862.380 μs) | @
+[862.380 μs ; 923.260 μs) | @@
+---------------------------------------------------
+
+StringConcatMesurement.WithStringType: ShortRun(IterationCount=3, LaunchCount=1, WarmupCount=3)
+Runtime = .NET Core 3.1.8 (CoreCLR 4.700.20.41105, CoreFX 4.700.20.41903), X64 RyuJIT; GC = Concurrent Workstation
+Mean = 8.539 s, StdErr = 0.520 s (6.10%), N = 3, StdDev = 0.902 s
+Min = 7.640 s, Q1 = 8.087 s, Median = 8.535 s, Q3 = 8.989 s, Max = 9.443 s
+IQR = 0.901 s, LowerFence = 6.735 s, UpperFence = 10.341 s
+ConfidenceInterval = [-7.907 s; 24.986 s] (CI 99.9%), Margin = 16.447 s (192.60% of Mean)
+Skewness = 0.01, Kurtosis = 0.67, MValue = 2
+-------------------- Histogram --------------------
+[7.267 s ;  8.908 s) | @@
+[8.908 s ; 10.264 s) | @
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.12.1, OS=Windows 10.0.19041.867 (2004/?/20H1)
+Intel Core i7-7700HQ CPU 2.80GHz (Kaby Lake), 1 CPU, 8 logical and 4 physical cores
+.NET Core SDK=3.1.402
+  [Host]   : .NET Core 3.1.8 (CoreCLR 4.700.20.41105, CoreFX 4.700.20.41903), X64 RyuJIT
+  ShortRun : .NET Core 3.1.8 (CoreCLR 4.700.20.41105, CoreFX 4.700.20.41903), X64 RyuJIT
+
+Job=ShortRun  IterationCount=3  LaunchCount=1  
+WarmupCount=3  
+
+|            Method |           Mean |           Error |        StdDev |            Min |            Max |
+|------------------ |---------------:|----------------:|--------------:|---------------:|---------------:|
+| WithStringBuilder |       872.8 μs |        556.9 μs |      30.52 μs |       838.1 μs |       895.5 μs |
+|    WithStringType | 8,539,340.2 μs | 16,446,761.2 μs | 901,502.48 μs | 7,640,195.9 μs | 9,443,182.5 μs |
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  Min    : Minimum
+  Max    : Maximum
+  1 μs   : 1 Microsecond (0.000001 sec)
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:01:03 (63.1 sec), executed benchmarks: 2
+
+Global total time: 00:01:14 (74.4 sec), executed benchmarks: 2
+// * Artifacts cleanup *
