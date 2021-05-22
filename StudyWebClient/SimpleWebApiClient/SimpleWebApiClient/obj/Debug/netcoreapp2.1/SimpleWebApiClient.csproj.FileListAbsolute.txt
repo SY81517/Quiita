@@ -1,0 +1,12 @@
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\bin\Debug\netcoreapp2.1\SimpleWebApiClient.deps.json
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\bin\Debug\netcoreapp2.1\SimpleWebApiClient.runtimeconfig.json
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\bin\Debug\netcoreapp2.1\SimpleWebApiClient.runtimeconfig.dev.json
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\bin\Debug\netcoreapp2.1\SimpleWebApiClient.dll
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\bin\Debug\netcoreapp2.1\SimpleWebApiClient.pdb
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.csprojAssemblyReference.cache
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.AssemblyInfoInputs.cache
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.AssemblyInfo.cs
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.csproj.CoreCompileInputs.cache
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.dll
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.pdb
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.genruntimeconfig.cache
