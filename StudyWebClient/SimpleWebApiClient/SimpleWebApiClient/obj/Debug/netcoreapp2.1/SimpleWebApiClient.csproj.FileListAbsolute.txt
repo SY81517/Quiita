@@ -9,4 +9,3 @@ C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\Sim
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.csproj.CoreCompileInputs.cache
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.dll
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.pdb
-C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebApiClient\SimpleWebApiClient\obj\Debug\netcoreapp2.1\SimpleWebApiClient.genruntimeconfig.cache
