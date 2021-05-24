@@ -1,0 +1,9 @@
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\Prime\bin\Debug\netcoreapp2.1\Prime.deps.json
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\Prime\bin\Debug\netcoreapp2.1\Prime.dll
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\Prime\bin\Debug\netcoreapp2.1\Prime.pdb
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\Prime\obj\Debug\netcoreapp2.1\Prime.csprojAssemblyReference.cache
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\Prime\obj\Debug\netcoreapp2.1\Prime.AssemblyInfoInputs.cache
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\Prime\obj\Debug\netcoreapp2.1\Prime.AssemblyInfo.cs
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\Prime\obj\Debug\netcoreapp2.1\Prime.csproj.CoreCompileInputs.cache
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\Prime\obj\Debug\netcoreapp2.1\Prime.dll
+C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\Prime\obj\Debug\netcoreapp2.1\Prime.pdb
