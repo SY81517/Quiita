@@ -1,0 +1,24 @@
+=======================================
+関心持っている技術のメモ
+※記事にしたら、項目を削除する。
+=======================================
+■HTTPサーバのモック化
+　WireMock.NET
+	▼参考
+	[Git WireMock.NET][1]
+	[WireMock.Net-example][2]
+	[Writing robust integration tests in .NET with WireMock.NET][3]
+	[1]:https://github.com/WireMock-Net/WireMock.Net
+	[2]:https://github.com/WireMock-Net/WireMock.Net-examples
+	[3]:https://www.youtube.com/watch?v=YU3ohofu6UU
+	[4]:https://ambertests.com/2018/12/13/c-advent-wiremock-net/
+	[5]:http://wiremock.org/
+	[6]:https://qiita.com/Junichi_M_/items/7fe4c25ef4b82ecb0d16
+	[7]:https://cabi99.hatenablog.com/entry/2020/03/26/094409
+	[8]:https://dev.classmethod.jp/articles/wiremock-practice/
+	[9]:http://wiremock.org/docs/
+
+	https://springhack.com/wiremock%E3%81%A7%E7%B0%A1%E5%8D%98%E3%81%AB%E3%83%A2%E3%83%83%E3%82%AF%E5%8C%96/
+	https://www.youtube.com/watch?v=IJa6DyJOxzk
+	https://www.codeproject.com/Articles/5267354/How-WireMock-NET-Can-Help-in-Doing-Integration-Tes
+
