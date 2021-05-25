@@ -16,6 +16,7 @@ namespace MicrosoftExDI
     {
         static void Main( string[] args )
         {
+
         }
     }
 }
