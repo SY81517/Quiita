@@ -16,4 +16,3 @@ C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\TestProject1\ob
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\TestProject1\obj\Debug\netcoreapp2.1\TestProject1.csproj.CopyComplete
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\TestProject1\obj\Debug\netcoreapp2.1\TestProject1.dll
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\TestProject1\obj\Debug\netcoreapp2.1\TestProject1.pdb
-C:\Users\1125s\source\repos\SY81517\Quiita\StudyNunit\MSdocNunit\TestProject1\obj\Debug\netcoreapp2.1\TestProject1.genruntimeconfig.cache
