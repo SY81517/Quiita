@@ -71,4 +71,24 @@
 	https://knowledge.sakura.ad.jp/24059/
 	
 	
+	https://docs.microsoft.com/ja-jp/aspnet/core/grpc/?view=aspnetcore-5.0
+	https://docs.microsoft.com/ja-jp/aspnet/core/tutorials/grpc/grpc-start?view=aspnetcore-5.0&tabs=visual-studio
+	https://docs.microsoft.com/ja-jp/aspnet/core/grpc/basics?view=aspnetcore-5.0
+	https://github.com/grpc/grpc-dotnet
+	http://neue.cc/2020/11/16_596.html
+	https://www.infoq.com/jp/news/2020/07/microsoft-releases-grpc-web-net/
+	https://knowledge.sakura.ad.jp/24059/
+	https://ichi.pro/grpc-to-net-5-de-koseino-sa-bisu-o-kochikusuru-129768140419746
+	
 
+Å°GraphQl
+
+	.NETÅ^C#ÇæÇ∆èÓïÒÇ™è≠Ç»Ç¢ÅB
+	
+	https://miso-soup3.hateblo.jp/entry/2017/11/30/162445
+	https://qiita.com/bananaumai/items/3eb77a67102f53e8a1ad
+	https://qiita.com/SiragumoHuin/items/cc58f456bc43a1be41b4
+	https://qiita.com/kenjiuno/items/f890a36a4625ccd67308
+	https://softchris.github.io/pages/dotnet-graphql.html#working-with-parameters
+	
+	
