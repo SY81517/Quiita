@@ -1,0 +1,35 @@
+//    (注意)
+//    C#での文字列操作は気付かずパフォーマンス悪化に陥ることが多いです。
+//    言語仕様を理解していないと、メモリ消費、実行速度の２つの面で課題が出ます。
+//    メモリ消費の観点では '+' 演算は使うべきではありません。
+//    StringBuilder 、または内部的に StringBuilder を使っている
+//    文字列補完機能 '$' を使うべきです。
+//    もし、実行速度にこだわるのであればもう少し実装方式を考える必要が出てくるでしょう。
+//
+//    String 型と StringBuilder 型 の違い
+//    https://docs.microsoft.com/ja-jp/dotnet/api/system.text.stringbuilder?view=net-5.0#the-string-and-stringbuilder-types
+//
+//    Performance Of String Concatenation In C# (C#における文字列結合の性能考察)
+//    https://dotnetcoretutorials.com/2020/02/06/performance-of-string-concatenation-in-c/
+
+●EssentialShortcuts
+問題の文章
+//    StringBuilder 、または内部的に StringBuilder を使っている
+//    文字列補完機能 '$' を使うべきです。
+
+誤っている箇所は下記
+(誤)
+内部的に StringBuilder を使っている文字列補完機能 '$' 
+
+(正)
+補完文字列が string 型の場合、通常は String.Format メソッドの呼び出しに変換されます。 
+分析後の動作が連結と等しくなるようであれば、コンパイラでは、String.Format を String.Concat に置換する場合があります。
+
+下記リンクを参照
+1. 補完文字列のコンパイルの項目
+　　https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/tokens/interpolated
+
+2. SharpLag
+   https://sharplab.io/#v2:CYLg1APgAgTAjAWAFDIHYEMC2BTAzgB3QGNsACAZQBcBXYATyoCcBLVAc2QG9lTfTXK2RhgA2pWOLgB2Hn25I+i8TBiylpeevUA3dI1L4R1XACU81EZVIBeUgAUjuAPL4h6SgHtGACgBEATSwsD09fAEoAbjUtXl19ADMvTHczXAtKWyZWNgAxJPc/QOTMEI9wqIUYvjjeASF8DxF3bGAbUgBJVEFGBqbBYEKgktDI6MUAXzG+AHpZ0gAeNMxkxjoAPineWenSQBR7QHTvQAVtQAVfQAgVTdJthemllfWLq/nCRixSDBxrXz02XzX56eeWA2lXUjygUlwf2m4MhFygAGZJAA2SQABnsjhcbk8PigcHR3zCF00VV44NIvgAEtgRCIyqQwKRvgyKQB1LwiYC+CoxSYgpSPW56e78xRXLLsPKMZKUB5zf5C1bAmKPQGYN5YbCfb6/f5q5VaMEQqEwg3qBHItEUSgsSX5SjePEExhsImiuQXRTkp0AOilMr81NpHk4qPG7MYnN8ABpCTytHyVfLFSKkztAOGmgHVtQDoSoAdiMAyalynYK6jLYVmgXytUaj5fF26gF6IFFham/6muGIvEop0dLr1RrNAa9wnEz3iKS8AAkVJpdM433DHK58fUib4fPGQA===
+
+
