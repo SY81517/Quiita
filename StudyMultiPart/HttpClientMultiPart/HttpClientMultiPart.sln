@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientMultiPart", "HttpClientMultiPart\HttpClientMultiPart.csproj", "{A092E694-E81C-44C7-A482-157B3FE10264}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A092E694-E81C-44C7-A482-157B3FE10264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A092E694-E81C-44C7-A482-157B3FE10264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A092E694-E81C-44C7-A482-157B3FE10264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A092E694-E81C-44C7-A482-157B3FE10264}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C4FD8BB-314C-4C17-A848-07A0C314720C}
+	EndGlobalSection
+EndGlobal
