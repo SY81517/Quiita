@@ -1,43 +1,52 @@
-﻿using System;
-using System.Collections.Generic;
-using System;
-using System.Net.Http;
+﻿using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using BenchmarkDotNet.Attributes;
 using Newtonsoft.Json;
 
 namespace BenchMark
 {
+    [MemoryDiagnoser]//メモリ使用量計測
+    [HtmlExporter]//Htmlエクスポート
     public class WebApiClient
     {
-        private static HttpClient Client = new HttpClient();
-
-        public WebApiClient()
+        private static readonly HttpClient Client = new HttpClient();
+        private static string _jsonString;
+        private static StringContent _data;
+        
+        [GlobalSetup]//初回セットアップ
+        public void GlobalSetUp()
         {
-            Client.BaseAddress = new Uri("http://localhost:19691/");
+            _jsonString = JsonConvert.SerializeObject("TestMessage");
+            _data = new StringContent(_jsonString, Encoding.UTF8, mediaType: "application/json");
         }
-
-        /// <summary>
-        /// GETメソッドをコールする
-        /// </summary>
-        /// <returns></returns>
+        
+        [Benchmark]//計測対象のメソッドに指定
         public async Task GetAsync()
         {
-            try
-            {
-                Console.WriteLine("Call GET api/values");
-                var resource = await Client.GetAsync("api/values");
-                resource.EnsureSuccessStatusCode();
-                var responseBody = await resource.Content.ReadAsStringAsync();
-                Console.WriteLine(responseBody);
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
-            Console.WriteLine("End");
+            var response = await Client.GetAsync("http://localhost:19691/api/values");
+            response.EnsureSuccessStatusCode();
         }
 
-
+        [Benchmark]
+        public async Task PutAsync()
+        {
+            var response = await Client.PutAsync("http://localhost:19691/api/values/5", _data);
+            response.EnsureSuccessStatusCode();
+        }
+        
+        [Benchmark]
+        public async Task PostAsync()
+        {
+            var response = await Client.PostAsync("http://localhost:19691/api/values", _data);
+            response.EnsureSuccessStatusCode();
+        }
+        
+        [Benchmark]
+        public async Task DeleteAsync()
+        {
+            var response = await Client.DeleteAsync("http://localhost:19691/api/values/5");
+            response.EnsureSuccessStatusCode();
+        }
     }
 }
