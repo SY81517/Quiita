@@ -8,6 +8,12 @@ namespace WebApI2017.Controllers
     /// </summary>
     public class UploadFileOperationFilter : IOperationFilter
     {
+        /// <summary>
+        /// Apply
+        /// </summary>
+        /// <param name="operation"></param>
+        /// <param name="schemaRegistry"></param>
+        /// <param name="apiDescription"></param>
         public void Apply(Operation operation, SchemaRegistry schemaRegistry, ApiDescription apiDescription)
         {
             operation.consumes.Add("multipart/form-data");

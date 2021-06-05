@@ -8,8 +8,14 @@ using System.IO;
 
 namespace WebApI2017
 {
+    /// <summary>
+    /// swaggerのConfig
+    /// </summary>
     public class SwaggerConfig
     {
+        /// <summary>
+        /// Register(自動生成)
+        /// </summary>
         public static void Register()
         {
             var thisAssembly = typeof(SwaggerConfig).Assembly;

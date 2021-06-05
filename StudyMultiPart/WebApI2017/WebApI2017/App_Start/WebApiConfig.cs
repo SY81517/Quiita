@@ -5,8 +5,15 @@ using System.Web.Http;
 
 namespace WebApI2017
 {
+    /// <summary>
+    /// WebApiConfig
+    /// </summary>
     public static class WebApiConfig
     {
+        /// <summary>
+        /// Register(自動生成)
+        /// </summary>
+        /// <param name="config"></param>
         public static void Register(HttpConfiguration config)
         {
             // Web API の設定およびサービス
