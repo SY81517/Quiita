@@ -15,11 +15,6 @@
 	https://zenn.dev/forest1/articles/1e90f0ce4509899c650b
 	https://documentation.help/Moq/
 
-■NUnitの事故の話？
-	
-	参考
-	https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer
-
 
 ■HTTPサーバのモック化
 　WireMock.NET
@@ -53,7 +48,8 @@
 
 ■gRPC+HTTP2
 	▼新規性
-	◯そこそこ
+	◯微妙
+	すでに資料が充実してる
 	トレンドレポートで[Last Majority]だから、スタンダードになりつつある感じ。
 	日本語情報がそれなりにある。
 	Go言語だと恩恵に預かれる。
