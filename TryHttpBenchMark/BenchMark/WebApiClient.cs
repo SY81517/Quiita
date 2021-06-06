@@ -6,7 +6,6 @@ using Newtonsoft.Json;
 
 namespace BenchMark
 {
-    [MemoryDiagnoser]//メモリ使用量計測
     [HtmlExporter]//Htmlエクスポート
     public class WebApiClient
     {
