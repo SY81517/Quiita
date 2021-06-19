@@ -3,6 +3,8 @@ using System.Text;
 
 namespace StudyBenchmarkDotNet
 {
+    [HtmlExporter]
+    [MemoryDiagnoser]
     [ShortRunJob]
     [MinColumn, MaxColumn]
     public class StringConcatMesurement
