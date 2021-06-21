@@ -1,0 +1,41 @@
+﻿CHESSは、並行プログラムをより適切にテストするのに役立つMicrosoftResearchのツールです。
+CHESSを使用して、プログラムをさまざまなスレッドインターリーブに体系的に駆動し、このプロセスの多くのバグを洗い流すことができます。
+バグが見つかると、CHESSはインターリーブを再現して、デバッグエクスペリエンスを大幅に向上させることができます。
+
+https://docs.microsoft.com/en-us/archive/blogs/chess/the-chess-scheduler-the-key-to-finding-concurrency-bugs
+※実装例のリンクが切れてる
+
+
+CHESSがプログラムに接続すると、プログラム内のスレッドのスケジューリングを完全に制御します。
+必要なときにいつでもスレッドを非決定的にプリエンプトできるWindowsスケジューラーに翻弄されることはなくなりました。
+代わりに、CHESSと間接的にユーザーであるあなたが、実行中にスレッドがどのようにインターリーブするかを決定します。
+これにより、CHESSは、バグを探しながら、可能なインターリーブに沿ってプログラムを体系的に推進できます。
+また、CHESSがバグを見つけたら、そのバグを生成したインターリーブを実行するようにCHESSスケジューラーに指示するのと同じくらい簡単に再現できます
+
+[DataRaceTestMethod]
+– Run a few schedules (using CHESS tool) and detect data races.
+[ScheduleTestMethod]
+– Run all possible schedules of this method (with at most
+two preemptions) using the CHESS tool.
+
+https://cs.pomona.edu/~kim/CCP2010Papers/slides/cc.pdf
+
+
+
+■チュートリアルあった！！
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/chess-chesspldi2009tutorial.pdf
+
+
+Page9
+Errors that CHESS can find
+ Assertions in the code
+ Any dynamic monitor that you run
+ Memory leaks, double-free detector, …
+ Deadlocks
+ Program enters a state where no thread is enabled
+ Livelocks
+ Program runs for a long time without making progress
+ Dataraces
+ Memory model races
+
+https://docs.microsoft.com/en-us/archive/msdn-magazine/2008/june/tools-and-techniques-to-identify-concurrency-issues

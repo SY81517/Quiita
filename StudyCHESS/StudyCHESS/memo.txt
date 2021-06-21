@@ -1,0 +1,35 @@
+﻿
+■CHESS: Find and Reproduce Heisenbugs in Concurrent Programs
+Established: October 1, 2008
+
+https://www.microsoft.com/en-us/research/project/chess-find-and-reproduce-heisenbugs-in-concurrent-programs/#!additional-information
+
+https://www.microsoft.com/en-us/research/project/chess-find-and-reproduce-heisenbugs-in-concurrent-programs/#!additional-information
+
+■インストール
+https://www.microsoft.com/en-us/download/details.aspx?id=52619&from=https%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2Fb23f8dc3-bb73-498f-bd85-1de121672e69%2F
+
+■本線
+https://archive.codeplex.com/?p=chesstool
+■Git；コピー
+https://github.com/LeeSanderson/Chess
+
+■使用方法
+https://docs.microsoft.com/en-us/archive/blogs/chess/
+
+■マガジン
+
+https://docs.microsoft.com/en-us/archive/msdn-magazine/2008/june/tools-and-techniques-to-identify-concurrency-issues
+
+https://stackoverflow.com/questions/12159/how-should-i-unit-test-multithreaded-code?rq=1
+
+■論文
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/osdi2008-CHESS.pdf
+
+■説明
+https://www.microsoft.com/en-us/research/publication/iterative-context-bounding-for-systematic-testing-of-multithreaded-programs/
+
+■StackOverflow
+https://stackoverflow.com/questions/1715822/unit-test-for-thread-safe-ness
+
+https://stackoverflow.com/questions/5536037/multi-threading-locks-test/5536126#5536126
