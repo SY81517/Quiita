@@ -39,3 +39,5 @@ https://www.microsoft.com/en-us/research/publication/iterative-context-bounding-
 https://stackoverflow.com/questions/1715822/unit-test-for-thread-safe-ness
 
 https://stackoverflow.com/questions/5536037/multi-threading-locks-test/5536126#5536126
+
+https://stackoverflow.com/questions/25361706/how-to-test-concurrency-scenarios-in-net
