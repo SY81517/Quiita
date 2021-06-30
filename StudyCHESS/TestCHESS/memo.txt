@@ -19,6 +19,7 @@ https://github.com/LeeSanderson/Chess
 コードサンプル
 https://github.com/LeeSanderson/Concurrency
 
+https://social.msdn.microsoft.com/Forums/en-us/home?forum=chess
 
 ■使用方法
 https://docs.microsoft.com/en-us/archive/blogs/chess/

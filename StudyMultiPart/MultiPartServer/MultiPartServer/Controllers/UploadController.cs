@@ -19,7 +19,7 @@ namespace MultiPartServer.Controllers
         /// </summary>
         /// <returns>Httpステータスコード</returns>
         [SwaggerOperationFilter(typeof(UploadFileOperationFilter))]
-        public async Task<IHttpActionResult> PostFile()
+        public async Task<IHttpActionResult> PostFile(string id)
         {
             // multipart/form-data以外、サポート外のメディア種類(Http Status 415)を返す
             if(!Request.Content.IsMimeMultipartContent())

@@ -1,0 +1,6 @@
+
+https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/keywords/ref
+https://docs.microsoft.com/ja-jp/dotnet/csharp/programming-guide/classes-and-structs/passing-reference-type-parameters
+https://ufcpp.net/study/csharp/sp_ref.html
+
+参照渡しで引数を渡す

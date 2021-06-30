@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqTutorial", "MoqTutorial\MoqTutorial.csproj", "{D70F0F98-70E2-4303-A7C1-C9AE4ACF4873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{8D8B4D8C-1CFD-4663-AF4E-E96A90CEBFA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D70F0F98-70E2-4303-A7C1-C9AE4ACF4873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70F0F98-70E2-4303-A7C1-C9AE4ACF4873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70F0F98-70E2-4303-A7C1-C9AE4ACF4873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70F0F98-70E2-4303-A7C1-C9AE4ACF4873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8B4D8C-1CFD-4663-AF4E-E96A90CEBFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8B4D8C-1CFD-4663-AF4E-E96A90CEBFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8B4D8C-1CFD-4663-AF4E-E96A90CEBFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8B4D8C-1CFD-4663-AF4E-E96A90CEBFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
