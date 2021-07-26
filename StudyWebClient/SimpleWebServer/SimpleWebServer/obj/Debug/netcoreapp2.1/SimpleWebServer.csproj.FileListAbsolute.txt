@@ -1,11 +1,8 @@
-C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\bin\Debug\netcoreapp2.1\appsettings.Development.json
-C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\bin\Debug\netcoreapp2.1\appsettings.json
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\bin\Debug\netcoreapp2.1\SimpleWebServer.deps.json
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\bin\Debug\netcoreapp2.1\SimpleWebServer.runtimeconfig.json
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\bin\Debug\netcoreapp2.1\SimpleWebServer.runtimeconfig.dev.json
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\bin\Debug\netcoreapp2.1\SimpleWebServer.dll
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\bin\Debug\netcoreapp2.1\SimpleWebServer.pdb
-C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\obj\Debug\netcoreapp2.1\SimpleWebServer.csprojAssemblyReference.cache
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\obj\Debug\netcoreapp2.1\SimpleWebServer.AssemblyInfoInputs.cache
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\obj\Debug\netcoreapp2.1\SimpleWebServer.AssemblyInfo.cs
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\obj\Debug\netcoreapp2.1\SimpleWebServer.csproj.CoreCompileInputs.cache
@@ -14,4 +11,3 @@ C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\Simple
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\obj\Debug\netcoreapp2.1\SimpleWebServer.RazorTargetAssemblyInfo.cache
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\obj\Debug\netcoreapp2.1\SimpleWebServer.dll
 C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\obj\Debug\netcoreapp2.1\SimpleWebServer.pdb
-C:\Users\1125s\source\repos\SY81517\Quiita\StudyWebClient\SimpleWebServer\SimpleWebServer\obj\Debug\netcoreapp2.1\SimpleWebServer.genruntimeconfig.cache

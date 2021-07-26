@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StudyMultiPart",
+    "\\StudyMultiPart\\MultiPartServer",
+    "\\StudyMultiPart\\MultiPartServer\\MultiPartServer",
+    "\\StudyMultiPart\\MultiPartServer\\MultiPartServer\\Controllers"
   ],
+  "SelectedNode": "\\StudyMultiPart",
   "PreviewInSolutionExplorer": false
 }
