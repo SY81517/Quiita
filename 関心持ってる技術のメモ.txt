@@ -2,49 +2,6 @@
 関心持っている技術のメモ
 ※記事にしたら、項目を削除する。
 =======================================
-ソフトウェアアーキテクチャと設計のInfoQトレンドレポート - 2021年4月
-
-■Moq
-	使いこなし覚えなきゃな
-	https://riptutorial.com/moq
-	https://github.com/Moq/moq4/wiki/Quickstart
-	https://www.jankowskimichal.pl/wp-content/uploads/downloads/2016/01/Cheatsheet_Moq_xUnit_AutoFixture.pdf
-	https://riptutorial.com/moq
-	https://www.codeproject.com/Articles/5286617/Moq-and-out-Parameter
-	https://documentation.help/Moq/
-	https://zenn.dev/forest1/articles/1e90f0ce4509899c650b
-	https://documentation.help/Moq/
-
-
-■HTTPサーバのモック化
-　WireMock.NET
-	▼新規性
-	◎充分
-	日本語情報が少ないことから、競合はいない。
-	英語情報のみであることから、調査に労力がかかる。
-	サーバレスがトレンドになりつつあるから、これはどうなのだろう？
-	サーバなくなってもモックは亡くならないからあり？
-	
-	▼モチベーション
-	△微妙
-	クライアントサイド開発していれば、役立つがその予定がなし。	
-	
-	▼参考サイト
-	[Git WireMock.NET][1]
-	[WireMock.Net-example][2]
-	[Writing robust integration tests in .NET with WireMock.NET][3]
-	[1]:https://github.com/WireMock-Net/WireMock.Net
-	[2]:https://github.com/WireMock-Net/WireMock.Net-examples
-	[3]:https://www.youtube.com/watch?v=YU3ohofu6UU
-	[4]:https://ambertests.com/2018/12/13/c-advent-wiremock-net/
-	[5]:http://wiremock.org/
-	[6]:https://qiita.com/Junichi_M_/items/7fe4c25ef4b82ecb0d16
-	[7]:https://cabi99.hatenablog.com/entry/2020/03/26/094409
-	[8]:https://dev.classmethod.jp/articles/wiremock-practice/
-	[9]:http://wiremock.org/docs/
-	https://springhack.com/wiremock%E3%81%A7%E7%B0%A1%E5%8D%98%E3%81%AB%E3%83%A2%E3%83%83%E3%82%AF%E5%8C%96/
-	https://www.youtube.com/watch?v=IJa6DyJOxzk
-	https://www.codeproject.com/Articles/5267354/How-WireMock-NET-Can-Help-in-Doing-Integration-Tes
 
 ■gRPC+HTTP2
 	▼新規性
@@ -86,4 +43,8 @@
 	https://qiita.com/SiragumoHuin/items/cc58f456bc43a1be41b4
 	https://qiita.com/kenjiuno/items/f890a36a4625ccd67308
 	https://softchris.github.io/pages/dotnet-graphql.html#working-with-parameters
+	
+■PlayWright
+https://www.youtube.com/watch?v=jZmdQL321kA
+
 	
