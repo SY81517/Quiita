@@ -1,3 +1,4 @@
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using NUnit.Framework;
@@ -20,19 +21,24 @@ namespace TestWireMock
         }
 
         [Test]
-        public async Task TestHelloWorld()
+        public async Task MockHttpApi_Foo_CaseStatusOk()
         {
+            // Arrange WireMock.Net serverの設定
             const string expected = @"{ ""msg"": ""Hello world!"" }";
             _mockServer
                 .Given(Request.Create().WithPath("/foo").UsingGet())
                 .RespondWith(
                     Response.Create()
-                        .WithStatusCode(200)
+                        .WithStatusCode(HttpStatusCode.OK)
+                        .WithHeader("Content-Type", "application/json")
                         .WithBody(expected));
-            var url = $"{_mockServer.Urls[0]}/foo";
 
-            var response = await _client.GetAsync(url);
+            var port = _mockServer.Ports;
+            // Act HTTPサーバーのURLにアクセスして、HTTP応答を取得する
+            var response = await _client.GetAsync($"{_mockServer.Urls[0]}/foo");
             var result = await response.Content.ReadAsStringAsync();
+
+            //Assert
             Assert.AreEqual(expected, result);
         }
 
