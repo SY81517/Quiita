@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>java.camel.soap.example</groupId>
+	<artifactId>camel-example-cxf-soap</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>soap example</name>
+	<description>An example which demonstrates the use of the Camel CXF
+		component</description>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<camel.version>4.7.0</camel.version>
+	</properties>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-core -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-core</artifactId>
+			<version>${camel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-cxf-soap</artifactId>
+			<!-- use the same version as your Camel core version -->
+			<version>${camel.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http-jetty</artifactId>
+			<version>4.0.4</version>
+		</dependency>
+	</dependencies>
+</project>
