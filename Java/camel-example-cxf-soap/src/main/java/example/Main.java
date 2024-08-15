@@ -11,6 +11,7 @@ public class Main {
 			context.addRoutes(new SoapRouteBuilder(new SoapProcessor(new HelloWorldImpl())));
 			context.start();
 			System.out.println("Sleep...");
+			// コンソールで実行した時にすぐ終了するため、スリープを入れる
 			Thread.sleep(5 * 60 * 1000);
 		}
         System.out.println("Server exiting");
