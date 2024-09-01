@@ -5,16 +5,15 @@
 	<groupId>java.camel.soap.example</groupId>
 	<artifactId>java.camel.wsdl2java.example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<cxf.version>4.0.4</cxf.version>
 	</properties>
-
 	<dependencies>
+		<!-- Apache CXF dependencies -->
+		<!-- https://cxf.apache.org/docs/using-cxf-with-maven.html -->
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
 			<artifactId>cxf-rt-frontend-jaxws</artifactId>
@@ -43,6 +42,7 @@
 								${project.build.directory}/generated-sources/cxf</sourceRoot>
 							<wsdlOptions>
 								<wsdlOption>
+									<!-- WSDLファイルの定義は必要に応じて変更すること -->
 									<wsdl>
 										${basedir}/src/main/resources/soapSampleHello.wsdl</wsdl>
 								</wsdlOption>
